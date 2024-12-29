@@ -38,11 +38,13 @@ Do uruchomienia projektu wymagane są następujące narzędzia i biblioteki:
 - **Jupyter Notebook**
 - **Biblioteki Python**:
   - `numpy`
- 
-## Licencja
-Ten projekt jest objęty licencją MIT. [LICENSE](./LICENSE).
   - `matplotlib` (opcjonalnie, dla wizualizacji)
-
+    
 ## Przykładowy wykres wygenerowany przez algorytm
 ![Przykładowy wykres](./przykladowy_wykres.png)
+
+## Licencja
+Ten projekt jest objęty licencją MIT. [LICENSE](./LICENSE).
+  
+
 
