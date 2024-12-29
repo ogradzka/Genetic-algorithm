@@ -10,6 +10,19 @@ Projekt przedstawia implementację algorytmu genetycznego służącego do rozwi�
 - **Mutacja**: Wprowadzenie losowych zmian w genotypie w celu zwiększenia różnorodności populacji.
 - **Ewolucja populacji**: Powtarzalne generowanie nowych pokoleń aż do osiągnięcia zadowalającego wyniku lub przekroczenia liczby iteracji.
 - **Zapis wyników**: Automatyczne zapisywanie wyników dostrajania algorytmu i najlepszej znalezionej trasy.
+- 
+Algorytm genetyczny został wzbogacony o zaawansowane techniki i dynamiczne mechanizmy optymalizacji, takie jak:
+- **Selekcja turniejowa z dynamiczną liczbą osobników**: Umożliwia adaptację procesu selekcji w zależności od aktualnego stanu populacji.
+- **Krzyżowanie OX (Order Crossover)**: Zastąpienie klasycznego PMX (Partially Mapped Crossover) bardziej odpowiednią metodą dla problemu komiwojażera.
+- **Mutacja z inwersją**: Dodano mechanizm odwracania segmentów trasy, co zwiększa różnorodność genotypów.
+- **Elitarność z dynamiczną zmianą liczby elit**: Mechanizm dynamicznego dostosowywania liczby elitarnych osobników w populacji w odpowiedzi na stagnację wyników.
+- **Lokalna optymalizacja `two-opt`**: Użycie klasycznego algorytmu `two-opt` do poprawy jakości rozwiązań, stosowanego wyłącznie dla elit.
+
+W samej pętli algorytmu genetycznego (GA) zaimplementowano:
+- **Dynamiczne prawdopodobieństwo mutacji**: Automatyczne dostosowywanie prawdopodobieństwa w zależności od postępu algorytmu.
+- **Dynamiczną liczbę elit**: Zmienianie liczby elit w odpowiedzi na stagnację wyników.
+- **Dynamiczną wielkość selekcji**: Automatyczne dopasowywanie liczby osobników w selekcji do aktualnej populacji.
+- **Ograniczenie optymalizacji lokalnej**: Algorytm `two-opt` jest stosowany wyłącznie dla elit, co przyspiesza działanie algorytmu.
 
 ## Struktura plików
 - `alg_genetyczny.ipynb`: Główny plik zawierający implementację algorytmu, wraz z analizą i wizualizacjami.
@@ -25,6 +38,9 @@ Do uruchomienia projektu wymagane są następujące narzędzia i biblioteki:
 - **Jupyter Notebook**
 - **Biblioteki Python**:
   - `numpy`
+ 
+## Licencja
+Ten projekt jest objęty licencją MIT. [LICENSE](./LICENSE).
   - `matplotlib` (opcjonalnie, dla wizualizacji)
 
 ## Przykładowy wykres wygenerowany przez algorytm
