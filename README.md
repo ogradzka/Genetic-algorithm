@@ -10,7 +10,7 @@ Projekt przedstawia implementację algorytmu genetycznego służącego do rozwi�
 - **Mutacja**: Wprowadzenie losowych zmian w genotypie w celu zwiększenia różnorodności populacji.
 - **Ewolucja populacji**: Powtarzalne generowanie nowych pokoleń aż do osiągnięcia zadowalającego wyniku lub przekroczenia liczby iteracji.
 - **Zapis wyników**: Automatyczne zapisywanie wyników dostrajania algorytmu i najlepszej znalezionej trasy.
-- 
+
 Algorytm genetyczny został wzbogacony o zaawansowane techniki i dynamiczne mechanizmy optymalizacji, takie jak:
 - **Selekcja turniejowa z dynamiczną liczbą osobników**: Umożliwia adaptację procesu selekcji w zależności od aktualnego stanu populacji.
 - **Krzyżowanie OX (Order Crossover)**: Zastąpienie klasycznego PMX (Partially Mapped Crossover) bardziej odpowiednią metodą dla problemu komiwojażera.
