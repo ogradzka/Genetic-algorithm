@@ -25,7 +25,7 @@ W samej pętli algorytmu genetycznego (GA) zaimplementowano:
 - **Ograniczenie optymalizacji lokalnej**: Algorytm `two-opt` jest stosowany wyłącznie dla elit, co przyspiesza działanie algorytmu.
 
 ## Struktura plików
-- `alg_genetyczny.ipynb`: Główny plik zawierający implementację algorytmu, wraz z analizą i wizualizacjami.
+- `alg_genetyczny.ipynb`: Główny plik zawierający implementację algorytmu w jezyku Python, wraz z analizą i wizualizacjami korzystajac z notatnika google colab.
 - `miasta280`: Plik tekstowy zawierający odległości między 280 miastami, zapisane w formacie macierzy odległości. Każda komórka zawiera odległość między odpowiednimi miastami.
 - `wyniki_ga`: Plik tekstowy zawierający zapisane próby dostrojenia algorytmu wraz z:
   - Osiągniętymi wynikami (całkowity dystans trasy).
