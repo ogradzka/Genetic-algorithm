@@ -35,7 +35,6 @@ W samej pętli algorytmu genetycznego (GA) zaimplementowano:
 ## Wymagania
 Do uruchomienia projektu wymagane są następujące narzędzia i biblioteki:
 - **Python 3.8+**
-- **Jupyter Notebook**
 - **Biblioteki Python**:
   - `numpy`
   - `matplotlib` (opcjonalnie, dla wizualizacji)
