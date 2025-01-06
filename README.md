@@ -1,4 +1,4 @@
-# Genetic-algorithm
+# Opis projektu
 
 Projekt przedstawia implementację algorytmu genetycznego służącego do rozwiązania problemu komiwojażera (TSP – Traveling Salesman Problem). Algorytm został zaprojektowany tak, aby znaleźć optymalną kolejność odwiedzenia 280 miast przy minimalnym dystansie podróży.
 
